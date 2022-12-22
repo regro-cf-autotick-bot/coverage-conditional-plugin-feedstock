@@ -1,5 +1,5 @@
 {% set name = "coverage-conditional-plugin" %}
-{% set version = "0.4.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/coverage-conditional-plugin-{{ version }}.tar.gz
-  sha256: 3ca50bb03b32f8ba8cf63b18d830f334cb75f401579040dd5c61df1c4687fef0
+  sha256: e6564944a32ccc962f8c0000ac618efa5f5ff232cb9bcc677ce98546dfa61e6d
 
 build:
   number: 0
